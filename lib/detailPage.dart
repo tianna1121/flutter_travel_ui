@@ -46,7 +46,7 @@ class _DetailPageState extends State<DetailPage> {
               color: Colors.white),
         ),
         Container(
-          height: MediaQuery.of(context).size.height - 310.0,
+          height: MediaQuery.of(context).size.height - 330.0,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(35.0),
@@ -56,7 +56,7 @@ class _DetailPageState extends State<DetailPage> {
                   fit: BoxFit.cover)),
         ),
         Positioned(
-          top: 400.0,
+          top: 500.0,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
